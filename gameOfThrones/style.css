@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px 10px 5px 10px;
+}
+img{
+    width: 200px;
+    height: 120px;
+    margin-left: 17px;
+}
+fieldset{
+    width: 500px;
+    margin-left: 198px;
+    margin-top: 20px;
+}
+p{
+    padding-bottom: 10px;
+}
+legend{
+    margin-bottom: 20px;
+}
+#title{
+    padding-top: 20px;
+}
