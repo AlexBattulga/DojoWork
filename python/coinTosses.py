@@ -8,10 +8,11 @@ def coinTosses(a):
         y = random.random()
         x_rounded = round(x)                                # rounding up random numbers 1.0 and 0.0
         y_rounded = round(y)
-        if x_rounded:                                       # checking rounded numbers and adding a conditions
+        print                                                               x_rounded, y_rounded
+        if x_rounded == 1.0:                                       # checking rounded numbers and adding a conditions
             coinToss = "... It's a head! ..."
             countx += 1
-        elif y_rounded:
+        if y_rounded == 0.0:
             coinToss = "... It's a tail! ..."
             county += 1
         print "Attemp #",i," Throwing a coin", coinToss,"Got", countx,"head(s) so far and",county,"tail(s) so far"
