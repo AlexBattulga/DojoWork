@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 700px;
+    margin: 0 auto;
+}
+.form_survey{
+    width: 500px;
+    border: 2px solid black;
+    padding: 20px 20px 20px 40px;
+    margin-top: 100px;
+    background-color: #EBEBEB;
+}
+label{
+    margin-right: 200px;
+}
+textarea{
+    display: block;
+    margin-top: 10px;
+}
+td{
+    padding-bottom: 10px;
+}
+.btn{
+    padding: 2px 10px;
+    box-shadow: 1px 1px 2px #000;
+    margin-left: 406px;
+    margin-top: 10px;
+}
+h3{
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+.form label{
+    margin-right: 300px;
+}
+.form table{
+    margin-bottom: 80px;
+}

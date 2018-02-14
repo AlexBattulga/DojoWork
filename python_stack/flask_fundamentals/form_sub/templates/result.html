@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{{url_for('static', filename="style.css")}}">
+        <title>Result</title>
+    </head>
+    <body>
+        <div class="form_survey form">
+            <h3>Submitted Info</h3>
+            <table>
+                <tr>
+                    <td><label>Name:</label></td>
+                    <td>{{name}}</td>
+                </tr>
+                <tr>
+                    <td>Dojo Location:</td>
+                    <td>{{location}}</td>
+                </tr>
+                <tr>
+                    <td>Favorite Language:</td>
+                    <td>{{language}}!!!</td>
+                </tr>
+                <tr>
+                    <td>Comment:</td>
+                    <td>{{comment}}</td>
+                </tr>
+            </table>
+            <form action="/" method="get">
+                <input type="submit" value="Go Back" class="btn">
+            </form>
+        </div>
+    </body>
+</html>

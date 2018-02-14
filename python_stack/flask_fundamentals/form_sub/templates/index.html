@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{{url_for('static', filename="style.css")}}">
+        <title>Welcome</title>
+    </head>
+    <body>
+        <div class="form_survey">
+            <form action="/result" method="post">
+                <table>
+                    <tr>
+                        <td><label for="fullname">Your name:</label></td>
+                        <td><input type="text" name="fullname" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="location">Dojo Location:</label></td>
+                        <td><select name="location">
+                           <option value="Silicon Valley"> Silicon Valley</option>
+                           <option value="Seattle"> Seattle</option>
+                           <option value="Los Angeles"> Los Angeles</option>
+                           <option value="Dallas"> Dallas</option>
+                           <option value="Chicago"> Chicago</option>
+                           <option value="Washington DC"> Washington DC</option>
+                       </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lang">Favorite Language:</label></td>
+                        <td><select name="lang">
+                           <option value="JavaScript">JavaScript</option>
+                           <option value="Python">Python</option>
+                           <option value="Java">Java</option>
+                           <option value="Csharp">C#</option>
+                       </select></td>
+                    </tr>
+                </table>
+                Comment (optional):
+                <textarea name="comment" rows="8" cols="71"></textarea>
+                <input type="submit" class="btn" value="Button">
+            </form>
+        </div>
+    </body>
+</html>
