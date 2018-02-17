@@ -18,4 +18,9 @@ def create_user():
 def show_user_profile(username):
     print username
     return render_template('user.html')
+
+@app.route('/show')
+def show_user():
+  return render_template('user.html', name='Jay', email='kpatel@codingdojo.com')
+
 app.run(debug=True)
