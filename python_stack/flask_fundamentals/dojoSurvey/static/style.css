@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 700px;
+    margin: 0 auto;
+}
+.form_survey{
+    width: 500px;
+    border: 2px solid black;
+    padding: 20px 20px 20px 40px;
+    margin-top: 100px;
+    background-color: #EBEBEB;
+}
+label{
+    margin-right: 200px;
+}
+textarea{
+    display: block;
+    margin-top: 10px;
+}
+td{
+    padding-bottom: 10px;
+}
+.btn{
+    padding: 2px 10px;
+    box-shadow: 1px 1px 2px #000;
+    margin-left: 406px;
+    margin-top: 10px;
+}
+h3{
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+.form label{
+    margin-right: 300px;
+}
+.form table{
+    margin-bottom: 80px;
+}
+.error_msg{
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 0px 3px;
+    background: rgba(224, 224, 224, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px 0px;
+    color: rgb(187, 187, 187);
+    border-radius: 0.5em;
+    font-size: 0.8em;
+}
