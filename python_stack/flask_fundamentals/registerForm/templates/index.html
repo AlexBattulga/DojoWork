@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="validate">
+                {% with messages = get_flashed_messages()%}
+                    {%if messages%}
+                        {%for message in messages%}
+                            <p>{{message}}</p>
+                        {%endfor%}
+                    {%endif%}
+                {%endwith%}
+            </div>
+            <div class="form">
+                <form action="/process" method="post">
+                    <table>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="text" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="f_name">First name:</label></td>
+                            <td><input type="text" name="f_name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="l_name">Last name:</label></td>
+                            <td><input type="text" name="l_name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">Password:</label></td>
+                            <td><input type="password" name="password"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="confirm">Confirm password:</label></td>
+                            <td><input type="password" name="confirm"></td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Submit" id="btn">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
