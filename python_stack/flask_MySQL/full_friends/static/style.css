@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 300px;
+    padding: 50px;
+}
+.friends table{
+    margin-top: 30px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+.friends td, th{
+    border-right: 1px solid black;
+    padding: 5px 10px;
+}
+.friends tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.friends th{
+    background-color: #919191;
+}
+input{
+    padding: 5px 50px;
+    margin: 5px 0 5px 23px;
+    border: 2px solid black;
+}
+#btn{
+    padding: 5px 10px;
+    display: block;
+    margin-left: 243px;
+    box-shadow: 1px 1px 2px black;
+}
