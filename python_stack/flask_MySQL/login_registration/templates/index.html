@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+        <title>Welcome!</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="register">
+                {% with messages = get_flashed_messages()%}
+                    {%if messages%}
+                        {%for message in messages%}
+                            <p>{{message}}</p>
+                        {%endfor%}
+                    {%endif%}
+                {%endwith%}
+                <form action="/registration" method="POST">
+                    <fieldset>
+                        <legend>Registration Form</legend>
+                        <table>
+                            <tr>
+                                <td><label for="first_name">First Name:</label></td>
+                                <td><input type="text" name="first_name" id="first_name"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="last_name">Last Name:</label></td>
+                                <td><input type="text" name="last_name" id="last_name"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Email Address:</label></td>
+                                <td><input type="text" name="email" id="email"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="password">Password:</label></td>
+                                <td><input type="password" name="password" id="password"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="confirm_password">Confirm Password:</label></td>
+                                <td><input type="password" name="confirm_password" id="confirm_password"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="submit" value="Submit" id="btn"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </div><!--- register ends -->
+            <div class="login">
+                <form action="/login" method="POST">
+                    <fieldset>
+                        <legend>Login Form</legend>
+                        <table>
+                            <tr>
+                                <td><label for="user_email">Email address:</label></td>
+                                <td><input type="text" name="user_email" id="user_email"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="user_password">Password:</label></td>
+                                <td><input type="password" name="user_password" id="user_password"></td>
+                            </tr>
+                        </table>
+                        <input type="submit" value="Submit" id="btn">
+                    </fieldset>
+                </form>
+            </div>
+        </div><!--- container ends -->
+    </body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #dddddd;
+    box-shadow: 2px 2px 3px black;
+}
+.register p{
+    text-align: center;
+}
+fieldset{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+legend{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#btn{
+    padding: 3px 10px;
+    box-shadow: 1px 1px 2px black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+h1 a{
+    font-size: 16px;
+    margin-left: 110px;
+    text-decoration: none;
+    color: black;
+}
+h1 a:hover{
+    color: #FFB84B;
+}
+.icon img{
+    margin: 50px 180px;
+    width: 350px;
+    height: 350px;
+}
