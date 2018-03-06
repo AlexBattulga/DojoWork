@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+        <title>The Wall</title>
+    </head>
+    <body>
+        <div class="containers">
+            <div class="header">
+                <h2>CodingDojo Wall</h2>
+                <p>Welcome {{user.first_name}}<a href="/clear_session">logout</a></p>
+            </div>
+            <div class="form">
+                <h3>Post a message:</h3>
+                <form action="/process" method="post">
+                    <textarea name="messages" rows="8" cols="80" id='messages'></textarea>
+                    <input type="submit" value="Post a message" id="btns">
+                </form>
+                <div class="content">
+                    {% for message in messages%}
+                        {% if message.user_id == session['id']%}
+                            <h4>{{message.full_name}} - {{message.created_date}}</h4>
+                            <p id="paragraph">{{message.message}} <a href="/delete/{{message.id}}">Delete</a> </p>
+                        {% else %}
+                            <h4>{{message.full_name}} - {{message.created_date}}</h4>
+                            <p id="paragraph">{{message.message}}</p>
+                        {% endif %}
+                        {% for comment in comments%}
+                            {% if message.id == comment.message_id%}
+                            <div class="comment">
+                                <h4>{{comment.full_name}} - {{comment.commented_date}}</h4>
+                                <p>{{comment.comment }} <a href="/delete_comment/{{comment.id}}">Delete</a></p>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                        <form action="/comment/{{ message.id }} " method="post">
+                            <textarea name="comment" cols="40" rows=3></textarea><br>
+                            <input id="btns" type="submit" value="Post a comment">
+                        </form>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
