@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+        <title>Edit User</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="edit">
+                <h1>Edit User {{ UserId }}</h1>
+                <form action="/users/edit/{{ UserId }}" method="POST">
+                    <table>
+                        <tr>
+                            <td><label for="first">First Name</label></td>
+                            <td><input type="text" name="first_name" id="first"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="last">Last Name</label></td>
+                            <td><input type="text" name="last_name" id="last"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="text" name="email" id="email"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Create"></td>
+                        </tr>
+                    </table>
+                 </form>
+               <ul>
+                   <li><a href="/users/{{ UserId }}">Show</a></li>
+                   <li><a href="/">Go Back</a></li>
+               </ul>
+            </div>
+        </div>
+    </body>
+</html>

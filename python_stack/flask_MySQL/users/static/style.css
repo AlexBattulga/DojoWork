@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.users table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.users th{background-color: #919191;}
+.users th, td{
+    border-right: 1px solid black;
+    padding: 5px 3px 5px 3px;
+}
+.users td ul{list-style-type: none;}
+.users td ul li{display: inline;}
+.users tr:nth-child(even){background-color: #dddddd;}
+.user_view ul li{display: inline;}
+.user_view ul li a{padding-right: 5px;}
+/* edit page */
+.edit ul li{
+    list-style-type: none;
+    display: inline;
+}
