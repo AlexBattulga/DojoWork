@@ -37,7 +37,7 @@ dog = Animal('Totoro', 100)
 dog.walk().walk().walk().run().run().displayHealth()
 
 small_dog = Dog('Johnny')
-small_dog.walk().walk().walk().run().run().displayHealth()
+small_dog.walk().walk().walk().run().pet().run().displayHealth()
 
 dragon = Dragon('Drogon')
 dragon.walk().walk().displayHealth()
