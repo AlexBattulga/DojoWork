@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'blogs/style.css' %}">
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="form">
+                <form action="/process" method="POST">
+                    {% csrf_token %}
+                    <table>
+                        <tr>
+                            <td><label for="name">Your Name:</label></td>
+                            <td><input type="text" name="full_name" id="name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="location">Location:</label></td>
+                            <td>
+                                <select name="location" id="location" >
+                                    <option name="location">Virginia</option>
+                                    <option name="location">Washington DC</option>
+                                    <option name="location">Seattle</option>
+                                    <option name="location">California</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="language">Favorite Language:</label></td>
+                            <td>
+                                <select name="language" id="language" >
+                                    <option name="language">Python</option>
+                                    <option name="language">C#</option>
+                                    <option name="language">C++</option>
+                                    <option name="language">Java</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="comment">Comment (optional):</label></td>
+                        </tr>
+                    </table>
+                    <textarea name="comment" id="comment" cols="40" rows="10"></textarea>
+                    <input type="submit" value="Submit" id="btn">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

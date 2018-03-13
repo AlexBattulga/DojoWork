@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'blogs/style.css' %}">
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="form">
+                <p>Thanks for submitting this form! You have submitted this form {{ request.session.times }} times now</p>
+                <h4>Submitted Information</h4>
+                <table id="table">
+                    <tr>
+                        <td>Your Name:</td>
+                        <td>{{ request.session.full_name}}</td>
+                    </tr>
+                    <tr>
+                        <td>Location:</td>
+                        <td>{{ request.session.location}}</td>
+                    </tr>
+                    <tr>
+                        <td>Favorite Language:</td>
+                        <td>{{ request.session.language}}</td>
+                    </tr>
+                    <tr>
+                        <td>Comment:</td>
+                        <td>{{ request.session.comment}}</td>
+                    </tr>
+                </table>
+                <form action="/">
+                    <input type="submit" value="Go Back" id="btn">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
