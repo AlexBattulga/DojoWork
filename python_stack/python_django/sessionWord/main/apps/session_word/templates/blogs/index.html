@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'blogs/style.css' %}">
+        <title>Session Words</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <form action="/process" method="post">
+                    {% csrf_token %}
+                    <table>
+                        <tr>
+                            <td><h3>Add a new word</h3></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="word" class="color"></td>
+                        </tr>
+                        <tr>
+                            <td><p>Choose color</p></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="color" value="red" class="color"> Red</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="color" value="green" class="color"> Green</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="color" value="blue" class="color"> Blue</td>
+                        </tr>
+                    </table>
+                    <input type="checkbox" name="big_font">show in BIG fonts!<br>
+                    <input type="submit" value="Add to Session" id="btn">
+                </form>
+            </div><!--- left div ends -->
+            <div class="right">
+                <form action="/clear" method='POST'>
+                    {% csrf_token %}
+                    <input type="submit" value="Clear Session" id="right_btn">
+                </form>
+                  {% for entry in request.session.word %}
+                    <p>
+                      {% if entry.big_font %}
+                      <span class="big_font {{ entry.color }}"> {{ entry.word }} </span>
+                      {% else %}
+                      <span class="{{ entry.color }}">{{ entry.word }}</span>
+                      {% endif %}
+                      {{ entry.date }}
+                    </p>
+                  {% endfor %}
+            </div>
+        </div>
+    </body>
+</html>
