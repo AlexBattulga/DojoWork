@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'apps.djangoApp',
+    'apps.surveysapp',
+    'apps.userapp',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
