@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to right, #E94946 , #469DE9, #E94946);
+    -webkit-background: linear-gradient(to right, #E94946 , #469DE9, #E94946);
+    -moz-background: linear-gradient(to right, #E94946 , #469DE9, #E94946);
+}
+.houses p{
+    margin-bottom: 10px;
+}
+.houses td{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    text-align: center;
+}
+.message_board{
+    margin-top: 10px;
+}
