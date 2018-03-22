@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'resftul/style.css' %}">
+        <title>Users Index</title>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Users</h2>
+                <table>
+                    <tr>
+                        <thead>
+                            <th>id</th>
+                            <th>Full Name</th>
+                            <th>Email</th>
+                            <th>Created at</th>
+                            <th>Actions</th>
+                        </thead>
+                    </tr>
+                    {% for user in users %}
+                    <tr>
+                        <tbody>
+                            <td>{{ user.id }}</td>
+                            <td>{{ user.first_name }} {{ user.last_name }}</td>
+                            <td>{{ user.email }}</td>
+                            <td>{{ user.created_at }}</td>
+
+                            <td>
+                                <ul class="inline">
+                                    <li><a href="/show/{{ user.id }}">Show</a></li>
+                                    <li><a href="/users/{{ user.id }}/edit">Edit</a></li>
+                                    <li><a href="/users/{{ user.id }}/destroy">Delete</a></li>
+                                </ul>
+                            </td>
+                        </tbody>
+                    </tr>
+                    {% endfor %}
+                </table>
+            <p><a href="/users/new">Add a new user</a></p>
+        </div>
+    </body>
+</html>

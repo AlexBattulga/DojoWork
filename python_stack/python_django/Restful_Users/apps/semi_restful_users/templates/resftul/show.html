@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'resftul/style.css' %}">
+        <title>User Show</title>
+    </head>
+    <body>
+        <table>
+            {% if users_info %}
+            <tr>
+                <td><h2>User {{ users_info.id }}</h2></td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Full Name: {{ users_info.first_name }} {{ users_info.last_name }}</li>
+                        <li>Email: {{ users_info.email }}</li>
+                        <li>Created at: {{ users_info.created_at }}</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul class="inline">
+                        <li><a href="/users/{{ users_info.id }}/edit">Edit</a></li>
+                        <li><a href="/users/{{ users_info.id }}/destroy">Delete</a></li>
+                        <li><a href="/">Go Back</a></li>
+                    </ul>
+                </td>
+            </tr>
+            {% endif %}
+        </table>
+    </body>
+</html>

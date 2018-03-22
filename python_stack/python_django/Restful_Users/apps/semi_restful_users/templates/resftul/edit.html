@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'resftul/style.css' %}">
+        <title>Edit User</title>
+    </head>
+    <body>
+        {% if users_info %}
+        <h2>Edit User {{ users_info.id }}</h2>
+        <form action="/users/update/{{ users_info.id }}" method="post">
+            {% csrf_token %}
+            <table>
+                <tr><td>Full Name:</td></tr>
+                <tr><td><input type="text" name="f_name" placeholder="{{ users_info.first_name }}"></td></tr>
+                <tr><td>Last Name:</td></tr>
+                <tr><td><input type="text" name="l_name" placeholder="{{ users_info.last_name }}"></td></tr>
+                <tr><td>Email:</td></tr>
+                <tr><td><input type="text" name="email" placeholder="{{ users_info.email }}"></td></tr>
+                <tr><td><input type="submit" value="Update"></td></tr>
+                <tr>
+                    <td>
+                        <ul class="inline">
+                            <li><a href="/show/{{ users_info.id }}">Show</a></li>
+                            <li><a href="/">Go Back</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+        {% endif %}
+    </body>
+</html>
