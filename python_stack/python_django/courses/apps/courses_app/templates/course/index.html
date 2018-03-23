@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static '/course/style.css' %}">
+        <title>Add a student to all bootcamp courses</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="add_courses">
+                {% if messages %}
+                    {% for msg in messages %}
+                    <p class="error">{{ msg }}</p>
+                    {% endfor %}
+                {% endif %}
+                <form action="/course/add" method="post">
+                    <h4>Add a new course</h4>
+                    {% csrf_token %}
+                    <table>
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" name="name"></td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td><textarea name="desc" cols="31" rows="2"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Add" id="btn"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="courses">
+                <h4>Courses</h4>
+                <table>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Description</th>
+                        <th>Date Added</th>
+                        <th>Actions</th>
+                    </tr>
+                    {% for i in name %}
+                    <tr>
+                        <td>{{ i.course_name }}</td>
+                        <td>{{ i.desc.course_desc }}</td>
+                        <td>{{ i.created_at }}</td>
+                        <td><a href="course/decision/{{ i.id }}">remove</a></td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

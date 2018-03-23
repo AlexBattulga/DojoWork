@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.add_courses .error{
+    color: red;
+    margin-left: 140px;
+}
+.add_courses form{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.add_courses #btn{
+    margin-left: 162px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px black;
+    background-color: green;
+    color: white;
+    padding: 1px 10px;
+}
+.courses th, .courses td{
+    font-size: 14px;
+    text-align: left;
+    border-left: 1px solid black;
+    padding: 4px;
+}
+.courses table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+textarea{border: 1px solid black;}
+.courses th{background-color: #8E8C8B;}
+.courses tr:nth-child(even){background-color: #ddd;}
+input[type=text]{
+    width: 202px;
+    height: 15px;
+    border: 1px solid black;
+}
+.detail td{
+    padding-right: 20px
+}
+.decision{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.decision ul li a{
+    text-decoration: none;
+}
+.decision ul li{
+    list-style-type: none;
+    display: inline;
+    border: 1px solid black;
+    margin-right: 20px;
+    padding: 0 2px;
+    box-shadow: 1px 1px 2px black;
+}
+#link-1{
+    background-color: #d8d8d8;
+}
+#link-2{
+    background-color: #9C1616;
+    padding: 0 20px;
+}
+#link-2 a{
+    color: white;
+}
