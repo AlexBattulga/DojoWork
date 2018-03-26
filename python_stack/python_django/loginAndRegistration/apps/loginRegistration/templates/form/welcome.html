@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'form/style.css' %}">
+        <title>Login & Reg | Success</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            {% if users %}
+            <h1>Success! Welcome, {{ users.first_name }}! <a href="/">Logoff</a></h1>
+            {% endif %}
+            <p>Successfully registered (or logged in)!</p>
+            <h2>^_^</h2>
+        </div>
+    </body>
+</html>
