@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'dash/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'dash/css/style.css' %}">
+        <title>Home Page</title>
+    </head>
+    <body>
+        <div class="container-fliud">
+            <nav class="navbar navbar-default">
+              <div class="container">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="/">Test app</a></li>
+                    <li role="presentation"><a href="/">Home</a></li>
+                    <li role="presentation"><a href="/signin">Login</a></li>
+                  </ul>
+              </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Welcome to the test</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Manage users</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Leave message</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Edit user information</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

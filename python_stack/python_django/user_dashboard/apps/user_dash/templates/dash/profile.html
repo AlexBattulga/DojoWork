@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'dash/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'dash/css/style.css' %}">
+        <title>User Profile</title>
+    </head>
+    <body>
+        <div class="container-fliud">
+            <nav class="navbar navbar-default">
+              <div class="container">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="/">Test app</a></li>
+                    <li role="presentation"><a href="/display_dash">Dashboard</a></li>
+                    <li role="presentation"><a href="#">Profile</a></li>
+                    <li role="presentation"><a href="/signin">Log off</a></li>
+                  </ul>
+              </div>
+            </nav>
+        </div>
+        <div class="container">
+            {% for user in users %}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="table">
+
+                        <h4>{{ user.first_name }} {{ user.last_name }}</h4>
+                        <table>
+                            <tr>
+                                <td>Registered at:</td>
+                                <td>{{ user.created_at }}</td>
+                            </tr>
+                            <tr>
+                                <td>User Id:</td>
+                                <td>{{ user.id }}</td>
+                            </tr>
+                            <tr>
+                                <td>Email address:</td>
+                                <td>{{ user.email }}</td>
+                            </tr>
+                            <tr>
+                                <td>Message:</td>
+                                <td>{{ user.message }}</td>
+                            </tr>
+                        </table>
+                        <form action="/message_process/{{ user.id }}" method="post">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Leave a message for {{ users.first_name }}</label>
+                                <input type="text" name="message" class="form-control" id="exampleInputEmail1" placeholder="message...">
+                            </div>
+                            <button type="submit" class="btn btn-success">Post</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- <p>{{ user.first_name}}</p> -->
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </body>
+</html>

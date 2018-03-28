@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'dash/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'dash/css/style.css' %}">
+        <title>Edit Page</title>
+    </head>
+    <body>
+        <div class="container-fliud">
+            <nav class="navbar navbar-default">
+              <div class="container">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="/">Test app</a></li>
+                    <li role="presentation"><a href="/display_dash">Dashboard</a></li>
+                    <li role="presentation"><a href="/profile">Profile</a></li>
+                    <li role="presentation"><a href="/signin">Log off</a></li>
+                  </ul>
+              </div>
+            </nav>
+        </div>
+        <div class="container">
+            {% if messages %}
+                {% for msg in messages %}
+                    <div class="alert alert-danger" role="alert">{{ msg }}</div>
+                {% endfor %}
+            {% endif %}
+            <!-- msg ^ -->
+            {% if users %}
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Edit user {{ users.id }}</h4>
+                </div>
+                <div class="col-md-6 text-right">
+                    <p><a href="#" class="btn btn-primary">Return to Dashboard</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <form action="/edit_users/{{ users.id }}" method="POST">
+                        {% csrf_token %}
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address:</label>
+                                <input type="email" class="form-control" name="email" id="exampleInputEmail1" value="{{ users.email }}">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">First Name:</label>
+                                <input type="text" class="form-control" name="fname" id="exampleInputEmail1" value="{{ users.first_name }}">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Last name:</label>
+                                <input type="text" class="form-control" name="lname" id="exampleInputEmail1" value="{{ users.last_name }}">
+                            </div>
+                            <button type="submit" class="btn btn-success">Edit</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <!--empty colomn-->
+                </div>
+
+                <div class="col-md-4">
+                    <form action="/edit_password/{{ users.id }}" method="POST">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Password:</label>
+                            <input type="password" class="form-control" name="password" id="exampleInputEmail1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password Confirmation:</label>
+                            <input type="password" class="form-control" name="confirm_pw" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-success">Update Password</button>
+                    </form>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </body>
+</html>
