@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/Csharp_fundamentals/obj/Debug/netcoreapp2.0/Csharp_fundamentals.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/Csharp_fundamentals/obj/Debug/netcoreapp2.0/Csharp_fundamentals.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/Csharp_fundamentals/obj/Debug/netcoreapp2.0/Csharp_fundamentals.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/Csharp_fundamentals/bin/Debug/netcoreapp2.0/Csharp_fundamentals.deps.json
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/Csharp_fundamentals/bin/Debug/netcoreapp2.0/Csharp_fundamentals.runtimeconfig.json
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/Csharp_fundamentals/bin/Debug/netcoreapp2.0/Csharp_fundamentals.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/Csharp_fundamentals/bin/Debug/netcoreapp2.0/Csharp_fundamentals.dll
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/Csharp_fundamentals/bin/Debug/netcoreapp2.0/Csharp_fundamentals.pdb
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/Csharp_fundamentals/obj/Debug/netcoreapp2.0/Csharp_fundamentals.dll
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/Csharp_fundamentals/obj/Debug/netcoreapp2.0/Csharp_fundamentals.pdb
