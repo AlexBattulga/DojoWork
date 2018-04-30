@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 400px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background: #ffc062;
+    padding: 10px;
+}
+span:hover{
+    text-transform: uppercase;
+    color: #53afff;
+}

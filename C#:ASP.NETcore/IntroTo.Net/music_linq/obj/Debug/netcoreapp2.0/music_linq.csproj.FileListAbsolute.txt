@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/EbaR_Battulga/music_linq/bin/Debug/netcoreapp2.0/music_linq.deps.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/music_linq/bin/Debug/netcoreapp2.0/music_linq.runtimeconfig.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/music_linq/bin/Debug/netcoreapp2.0/music_linq.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/music_linq/bin/Debug/netcoreapp2.0/music_linq.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/music_linq/bin/Debug/netcoreapp2.0/music_linq.pdb
+/Users/enkhbattulga/Desktop/EbaR_Battulga/music_linq/obj/Debug/netcoreapp2.0/music_linq.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/music_linq/obj/Debug/netcoreapp2.0/music_linq.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/music_linq/obj/Debug/netcoreapp2.0/music_linq.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/EbaR_Battulga/music_linq/obj/Debug/netcoreapp2.0/music_linq.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/music_linq/obj/Debug/netcoreapp2.0/music_linq.pdb

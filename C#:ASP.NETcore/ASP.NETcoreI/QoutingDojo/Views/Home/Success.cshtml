@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Success";
+}
+<h2>Here are the awesome quotes!</h2>
+
+@foreach(var data in ViewBag.myData){
+    <blockquote class="blockquote-reverse">
+    <p>"@data["qoute"]"</p>
+    <footer>@data["fullname"] at @data["created_at"]</footer>
+    <hr>
+</blockquote>
+}

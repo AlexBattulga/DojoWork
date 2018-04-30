@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/EbaR_Battulga/Linq/music-linq/obj/Debug/netcoreapp1.1/LinqSkeleton.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/Linq/music-linq/obj/Debug/netcoreapp1.1/LinqSkeleton.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/Linq/music-linq/obj/Debug/netcoreapp1.1/LinqSkeleton.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/EbaR_Battulga/Linq/music-linq/bin/Debug/netcoreapp1.1/LinqSkeleton.deps.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/Linq/music-linq/bin/Debug/netcoreapp1.1/LinqSkeleton.runtimeconfig.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/Linq/music-linq/bin/Debug/netcoreapp1.1/LinqSkeleton.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/Linq/music-linq/bin/Debug/netcoreapp1.1/LinqSkeleton.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/Linq/music-linq/bin/Debug/netcoreapp1.1/LinqSkeleton.pdb
+/Users/enkhbattulga/Desktop/EbaR_Battulga/Linq/music-linq/obj/Debug/netcoreapp1.1/LinqSkeleton.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/Linq/music-linq/obj/Debug/netcoreapp1.1/LinqSkeleton.pdb

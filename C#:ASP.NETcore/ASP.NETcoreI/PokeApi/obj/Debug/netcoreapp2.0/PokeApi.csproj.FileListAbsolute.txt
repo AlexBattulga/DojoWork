@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PokeApi/bin/Debug/netcoreapp2.0/PokeApi.deps.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PokeApi/bin/Debug/netcoreapp2.0/PokeApi.runtimeconfig.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PokeApi/bin/Debug/netcoreapp2.0/PokeApi.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PokeApi/bin/Debug/netcoreapp2.0/PokeApi.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PokeApi/bin/Debug/netcoreapp2.0/PokeApi.pdb
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PokeApi/obj/Debug/netcoreapp2.0/PokeApi.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PokeApi/obj/Debug/netcoreapp2.0/PokeApi.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PokeApi/obj/Debug/netcoreapp2.0/PokeApi.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PokeApi/obj/Debug/netcoreapp2.0/PokeApi.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PokeApi/obj/Debug/netcoreapp2.0/PokeApi.pdb

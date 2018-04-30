@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/EbaR_Battulga/basic_13/bin/Debug/netcoreapp2.0/basic_13.deps.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/basic_13/bin/Debug/netcoreapp2.0/basic_13.runtimeconfig.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/basic_13/bin/Debug/netcoreapp2.0/basic_13.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/basic_13/bin/Debug/netcoreapp2.0/basic_13.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/basic_13/bin/Debug/netcoreapp2.0/basic_13.pdb
+/Users/enkhbattulga/Desktop/EbaR_Battulga/basic_13/obj/Debug/netcoreapp2.0/basic_13.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/basic_13/obj/Debug/netcoreapp2.0/basic_13.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/basic_13/obj/Debug/netcoreapp2.0/basic_13.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/EbaR_Battulga/basic_13/obj/Debug/netcoreapp2.0/basic_13.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/basic_13/obj/Debug/netcoreapp2.0/basic_13.pdb

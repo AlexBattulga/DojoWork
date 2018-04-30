@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PassCode/bin/Debug/netcoreapp2.0/PassCode.deps.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PassCode/bin/Debug/netcoreapp2.0/PassCode.runtimeconfig.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PassCode/bin/Debug/netcoreapp2.0/PassCode.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PassCode/bin/Debug/netcoreapp2.0/PassCode.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PassCode/bin/Debug/netcoreapp2.0/PassCode.pdb
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PassCode/obj/Debug/netcoreapp2.0/PassCode.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PassCode/obj/Debug/netcoreapp2.0/PassCode.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PassCode/obj/Debug/netcoreapp2.0/PassCode.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PassCode/obj/Debug/netcoreapp2.0/PassCode.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/PassCode/obj/Debug/netcoreapp2.0/PassCode.pdb

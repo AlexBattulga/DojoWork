@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.deps.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.runtimeconfig.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.pdb
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.pdb

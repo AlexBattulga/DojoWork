@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 760px;
+    margin: 0 auto;
+    padding: 10px 0 10px 400px;
+    border-radius: 10px;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 15px;
+}
+.content{
+    border: 1px solid black;
+    width: 350px;
+}
+.content img{
+    margin-left: 100px;
+    padding: 20px 0;
+}
+.message{
+    border: 1px solid green;
+    padding: 3px 5px;
+    font-size: 14px;
+}
+.message a{
+    border: 1px solid #129cf3;
+    border-radius: 2px;
+    padding: 0 3px;
+    color: black;
+    text-decoration: none;
+}
+table{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+table td a{
+    color: black;
+    border: 1px solid black;
+    padding: 3px 15px;
+    box-shadow: 2px 2px 2px black;
+    text-decoration: none;
+}
+table td:hover, a:hover{
+    background: #129cf3;
+    color: white;
+}

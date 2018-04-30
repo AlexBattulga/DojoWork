@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.deps.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.runtimeconfig.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.pdb
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.pdb

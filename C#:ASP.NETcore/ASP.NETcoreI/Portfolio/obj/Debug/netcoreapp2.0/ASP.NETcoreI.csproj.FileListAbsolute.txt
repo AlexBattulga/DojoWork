@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Portfolio/bin/Debug/netcoreapp2.0/ASP.NETcoreI.deps.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Portfolio/bin/Debug/netcoreapp2.0/ASP.NETcoreI.runtimeconfig.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Portfolio/bin/Debug/netcoreapp2.0/ASP.NETcoreI.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Portfolio/bin/Debug/netcoreapp2.0/ASP.NETcoreI.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Portfolio/bin/Debug/netcoreapp2.0/ASP.NETcoreI.pdb
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Portfolio/obj/Debug/netcoreapp2.0/ASP.NETcoreI.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Portfolio/obj/Debug/netcoreapp2.0/ASP.NETcoreI.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Portfolio/obj/Debug/netcoreapp2.0/ASP.NETcoreI.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Portfolio/obj/Debug/netcoreapp2.0/ASP.NETcoreI.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Portfolio/obj/Debug/netcoreapp2.0/ASP.NETcoreI.pdb

@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/C_sharp/collections_practice/bin/Debug/netcoreapp2.0/collections_practice.deps.json
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/C_sharp/collections_practice/bin/Debug/netcoreapp2.0/collections_practice.runtimeconfig.json
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/C_sharp/collections_practice/bin/Debug/netcoreapp2.0/collections_practice.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/C_sharp/collections_practice/bin/Debug/netcoreapp2.0/collections_practice.dll
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/C_sharp/collections_practice/bin/Debug/netcoreapp2.0/collections_practice.pdb
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/C_sharp/collections_practice/obj/Debug/netcoreapp2.0/collections_practice.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/C_sharp/collections_practice/obj/Debug/netcoreapp2.0/collections_practice.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/C_sharp/collections_practice/obj/Debug/netcoreapp2.0/collections_practice.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/C_sharp/collections_practice/obj/Debug/netcoreapp2.0/collections_practice.dll
+/Users/enkhbattulga/Desktop/DojoWork/python_stack/C_sharp/collections_practice/obj/Debug/netcoreapp2.0/collections_practice.pdb

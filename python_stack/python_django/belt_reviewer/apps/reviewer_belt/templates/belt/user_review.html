@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'belt/style.css' %}">
+        <link rel="stylesheet" href="{% static 'belt/bootstrap.min.css' %}">
+        <title>User Reviews</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-right">
+                    <ul>
+                        <li><a href="/home_page">Home</a></li>
+                        <li><a href="/add/book">Add Book and Review</a></li>
+                        <li><a href="/clear_session">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>User Alias: {{ user.alias }}</p>
+                    <p>Name: {{ user.name }}</p>
+                    <p>Email: {{ user.email }}</p>
+                    <p>Total Reviews: {{ totalRev }}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Posted Reviews on the following books:</h5>
+                    {% if all_user %}
+                    <ul>
+                        <li><p><a href="#">{{ all_user.book_review.title }}</a></p></li>
+                    </ul>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

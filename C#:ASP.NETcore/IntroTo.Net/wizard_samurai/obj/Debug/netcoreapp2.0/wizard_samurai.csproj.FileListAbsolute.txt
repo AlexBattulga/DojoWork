@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/EbaR_Battulga/wizard_samurai/obj/Debug/netcoreapp2.0/wizard_samurai.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/wizard_samurai/obj/Debug/netcoreapp2.0/wizard_samurai.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/wizard_samurai/obj/Debug/netcoreapp2.0/wizard_samurai.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/EbaR_Battulga/wizard_samurai/bin/Debug/netcoreapp2.0/wizard_samurai.deps.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/wizard_samurai/bin/Debug/netcoreapp2.0/wizard_samurai.runtimeconfig.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/wizard_samurai/bin/Debug/netcoreapp2.0/wizard_samurai.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/wizard_samurai/bin/Debug/netcoreapp2.0/wizard_samurai.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/wizard_samurai/bin/Debug/netcoreapp2.0/wizard_samurai.pdb
+/Users/enkhbattulga/Desktop/EbaR_Battulga/wizard_samurai/obj/Debug/netcoreapp2.0/wizard_samurai.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/wizard_samurai/obj/Debug/netcoreapp2.0/wizard_samurai.pdb

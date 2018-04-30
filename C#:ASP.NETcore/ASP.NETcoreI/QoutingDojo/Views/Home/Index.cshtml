@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@foreach(var msg in ViewBag.Errors)
+    {
+        <div class="alert alert-danger">
+            <p>@msg</p>
+        </div>
+    }
+<h1>Welcome to QuotingDojo</h1>
+<form action="/process" method="POST">
+<p>Your name: <input type="text" class="form-control" name="fullname"></p>
+<p>Your quote: <textarea name="text" class="form-control" cols="30" rows="5"></textarea></p>
+<div class="row">
+    <div class="col-md-3">
+        <input type="submit" class="btn btn-success" value="Add to quote!">
+    </div>
+    <div class="col-md-3">
+        <p><a href="/success" class="btn btn-success link">Skip to quotes!</a></p>
+    </div>
+</div>
+</form>

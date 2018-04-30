@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="~/css/style.css">
+        <title>Welcome!!!</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <form action="formData" method="POST">
+                <table>
+                    <tr>
+                        <td>Your name: </td>
+                        <td><input type="text" name="fullname"></td>
+                    </tr>
+                    <tr>
+                        <td>Dojo Location: </td>
+                        <td>
+                            <select name="location">
+                                <option value="San Jose">San Jose</option>
+                                <option value="Seatle">Seatle</option>
+                                <option value="Washington DC">Washington DC</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Favorite Language</td>
+                        <td>
+                            <select name="language">
+                                <option value="Python">Python</option>
+                                <option value="Java">Java</option>
+                                <option value="C#">C#</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Comment(optional):</td>
+                    </tr>
+                </table>
+                <textarea name="text" cols="52" rows="10"></textarea>
+                <input type="submit" class="btn" value="Submit">
+            </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/EbaR_Battulga/firstApp/bin/Debug/netcoreapp2.0/firstApp.deps.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/firstApp/bin/Debug/netcoreapp2.0/firstApp.runtimeconfig.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/firstApp/bin/Debug/netcoreapp2.0/firstApp.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/firstApp/bin/Debug/netcoreapp2.0/firstApp.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/firstApp/bin/Debug/netcoreapp2.0/firstApp.pdb
+/Users/enkhbattulga/Desktop/EbaR_Battulga/firstApp/obj/Debug/netcoreapp2.0/firstApp.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/firstApp/obj/Debug/netcoreapp2.0/firstApp.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/firstApp/obj/Debug/netcoreapp2.0/firstApp.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/EbaR_Battulga/firstApp/obj/Debug/netcoreapp2.0/firstApp.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/firstApp/obj/Debug/netcoreapp2.0/firstApp.pdb

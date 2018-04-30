@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'belt/style.css' %}">
+        <link rel="stylesheet" href="{% static 'belt/bootstrap.min.css' %}">
+        <title>Books Home</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Welcome, {{ request.session.username }} </h5>
+                </div>
+                <div class="col-md-6 text-right">
+                    <ul>
+                        <li><a href="/add/book">Add Book and Review</a></li>
+                        <li><a href="/clear_session">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Recent Book Reviews:</h4>
+                    {% for rev in review %}
+                        <h6><a href="show/book/details/{{ rev.id }}">{{ rev.title }}</a></h6>
+                        <p>Rating: {{ rev.rating }}</p>
+                        <p><a href="/user/details/{{ all_book.user_review.id }}">{{ rev.user_review.alias }}</a> says: {{ rev.review }}</p>
+                        <p>Posted on {{ rev.created_at }}</p>
+                    {% endfor %}
+                </div>
+                <div class="col-md-6">
+                    <div class="right-side-list">
+                        <h4>Other Books with Reviews:</h4>
+                        <ul>
+                            {% for all_books in book %}
+                            <li><a href="show/book/details/{{ all_books.id }}">{{ all_books.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/QoutingDojo/bin/Debug/netcoreapp2.0/QoutingDojo.deps.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/QoutingDojo/bin/Debug/netcoreapp2.0/QoutingDojo.runtimeconfig.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/QoutingDojo/bin/Debug/netcoreapp2.0/QoutingDojo.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/QoutingDojo/bin/Debug/netcoreapp2.0/QoutingDojo.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/QoutingDojo/bin/Debug/netcoreapp2.0/QoutingDojo.pdb
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/QoutingDojo/obj/Debug/netcoreapp2.0/QoutingDojo.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/QoutingDojo/obj/Debug/netcoreapp2.0/QoutingDojo.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/QoutingDojo/obj/Debug/netcoreapp2.0/QoutingDojo.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/QoutingDojo/obj/Debug/netcoreapp2.0/QoutingDojo.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/QoutingDojo/obj/Debug/netcoreapp2.0/QoutingDojo.pdb

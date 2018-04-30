@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="~/css/style.css">
+        <title>Thank you</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <h5>Submitted Info</h5>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td>@ViewBag.Name</td>
+                    </tr>
+                    <tr>
+                        <td>Location:</td>
+                        <td>@ViewBag.Location</td>
+                    </tr>
+                    <tr>
+                        <td>Favorite Language:</td>
+                        <td>@ViewBag.Language</td>
+                    </tr>
+                    <tr>
+                        <td>Text:</td>
+                        <td>@ViewBag.Text</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/">Go Back</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

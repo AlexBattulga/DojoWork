@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/EbaR_Battulga/CRUD/bin/Debug/netcoreapp2.0/CRUD.deps.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/CRUD/bin/Debug/netcoreapp2.0/CRUD.runtimeconfig.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/CRUD/bin/Debug/netcoreapp2.0/CRUD.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/CRUD/bin/Debug/netcoreapp2.0/CRUD.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/CRUD/bin/Debug/netcoreapp2.0/CRUD.pdb
+/Users/enkhbattulga/Desktop/EbaR_Battulga/CRUD/obj/Debug/netcoreapp2.0/CRUD.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/CRUD/obj/Debug/netcoreapp2.0/CRUD.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/CRUD/obj/Debug/netcoreapp2.0/CRUD.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/EbaR_Battulga/CRUD/obj/Debug/netcoreapp2.0/CRUD.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/CRUD/obj/Debug/netcoreapp2.0/CRUD.pdb

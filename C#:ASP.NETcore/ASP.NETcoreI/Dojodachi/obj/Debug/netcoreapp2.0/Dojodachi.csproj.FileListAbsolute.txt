@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Dojodachi/bin/Debug/netcoreapp2.0/Dojodachi.deps.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Dojodachi/bin/Debug/netcoreapp2.0/Dojodachi.runtimeconfig.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Dojodachi/bin/Debug/netcoreapp2.0/Dojodachi.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Dojodachi/bin/Debug/netcoreapp2.0/Dojodachi.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Dojodachi/bin/Debug/netcoreapp2.0/Dojodachi.pdb
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Dojodachi/obj/Debug/netcoreapp2.0/Dojodachi.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Dojodachi/obj/Debug/netcoreapp2.0/Dojodachi.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Dojodachi/obj/Debug/netcoreapp2.0/Dojodachi.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Dojodachi/obj/Debug/netcoreapp2.0/Dojodachi.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/ASP.NETcoreI/Dojodachi/obj/Debug/netcoreapp2.0/Dojodachi.pdb

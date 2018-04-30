@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'belt/style.css' %}">
+        <link rel="stylesheet" href="{% static 'belt/bootstrap.min.css' %}">
+        <title>Welcome</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    {% if messages %}
+                        {% for msg in messages %}
+                        <div class="alert alert-danger">{{ msg }}</div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <form action="/user/register" method="post">
+                        {% csrf_token %}
+                        <fieldset>
+                            <legend>Register</legend>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="alias" placeholder="Alias">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="email" placeholder="Email address">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" name="password" placeholder="Password">
+                                </div>
+                                *Password should be at least 8 characters
+                                <div class="form-group">
+                                    <input type="password" class="form-control" name="c_password"  placeholder="Confirm PW">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-primary" value="Register">
+                                </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col-md-3">
+                    <form action="/user/login" method="post">
+                        {% csrf_token %}
+                        <fieldset>
+                            <legend>Login</legend>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="login_email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" name="login_password" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-primary" value="Login">
+                                </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

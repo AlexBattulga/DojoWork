@@ -1,0 +1,10 @@
+/Users/enkhbattulga/Desktop/EbaR_Battulga/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.csproj.CoreCompileInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.AssemblyInfoInputs.cache
+/Users/enkhbattulga/Desktop/EbaR_Battulga/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.AssemblyInfo.cs
+/Users/enkhbattulga/Desktop/EbaR_Battulga/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.deps.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.runtimeconfig.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.runtimeconfig.dev.json
+/Users/enkhbattulga/Desktop/EbaR_Battulga/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.pdb
+/Users/enkhbattulga/Desktop/EbaR_Battulga/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.dll
+/Users/enkhbattulga/Desktop/EbaR_Battulga/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.pdb

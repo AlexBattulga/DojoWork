@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="~/css/style.css">
+        <title>PokeApi</title>
+    </head>
+    <body>
+        <div class="container">
+            @{
+            bool PokeName = ViewBag.Poke.Count > 0;
+        
+            if(PokeName)
+            {
+               <h1>@ViewBag.Poke["name"]</h1>
+                <p><span>Weight: </span>@ViewBag.Poke["weight"]</p>
+                <p><span>Height: </span>@ViewBag.Poke["height"]</p>
+                for(int i = 0; i < @ViewBag.Poke["types"].Count; i++){
+                    <p><span>Types: </span>@ViewBag.Poke["types"][i]["type"]["name"]</p>
+                }
+            }else{
+                <h1>Whoops</h1>
+            }
+        }
+        </div>
+    </body>
+</html>
